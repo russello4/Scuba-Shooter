@@ -1,7 +1,50 @@
-html, body {
-  margin: 0;
+
+* {
+  margin: 10;
   padding: 0;
+  box-sizing: border-box;
 }
-canvas {
-  display: block;
+
+body {
+   background: linear-gradient(to bottom, #87CEEB, #2E8B57);
+  font-family: 'Helvetica', sans-serif;
+  overflow: hidden; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  flex-direction: column;
 }
+
+h1 {
+  margin: auto;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: "impact", sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  color: #FFFF00;
+}
+
+h2{
+ margin: auto;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: "impact", sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  color: #FFFF00;
+}
+
+#sketch-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; 
+  height: 60%; 
+  position: relative;
+}
+  
